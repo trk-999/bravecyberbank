@@ -1,0 +1,129 @@
+button,input {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.background {
+  width: 102%;
+  display: flex;
+}
+
+.container {
+  flex: 0 1 700px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: whitesmoke;
+  border-radius: 15px;
+  box-shadow: 6px 11px 1px rgba(0, 0, 0, .25);
+}
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: gray;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 5px;
+  height: 5px;
+  margin-left: 3px;
+  border-radius: 8px;
+  background: black;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.button {
+  margin-bottom: 0;
+  text-align: right;
+  position: absolute;
+  bottom: 35px;
+  right:42px;
+}
+
+.app-form-control{
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid burlywood;
+  color: black;
+  font-size: 14px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: black;
+}
+
+.app-form-control:focus {
+  border-bottom-color: gray;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  margin-left: 30px;
+  color: goldenrod;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-form-button:hover {
+  color: goldenrod;
+}
+
+@media screen and (max-width: 520px) {
+  *{
+    letter-spacing:2px;
+  }
+  .container{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+  }
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 40px;
+  }
+  .app-form-button{
+    margin-top:6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .screen-body {
+    padding: 35px;
+  }
+
+  .screen-body-item {
+    padding: 0;
+  }
+}

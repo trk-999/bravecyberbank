@@ -1,0 +1,73 @@
+body {
+  background-color: goldenrod;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.The-Signup-Box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 3px;
+}
+
+.The-Login-Box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 22px;
+  font-size: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: black;
+  color: goldenrod;
+  font-size: 18px;
+}
+p {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: black;
+}
+
